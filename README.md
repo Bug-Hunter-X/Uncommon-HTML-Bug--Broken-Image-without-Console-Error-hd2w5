@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon HTML bug related to displaying images.  The bug involves an image with an invalid source path ('invalid-image.jpg'). While many invalid image sources would trigger console errors, this specific scenario might not, leading to a broken image without obvious error messages. The solution shows how to handle such cases gracefully.
