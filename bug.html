@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug</title></head><body> <p>This is a paragraph.</p> <div id="myDiv"></div> <script> //This is where the bug occurs. document.getElementById("myDiv").innerHTML = "<img src='invalid-image.jpg' alt='Broken Image'></img>"; </script> </body></html>
